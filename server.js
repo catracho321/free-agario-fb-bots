@@ -216,7 +216,7 @@ class Bot {
                     if (!this.followMouseTimeout) {
                         this.followMouseTimeout = setTimeout(() => {
                             if (this.isAlive) this.followMouse = true
-                        }, 18000)
+                        }, 180000)
                     }
                     if (!this.facebookBots) facebookHandler.FBLogin(this.c, (p) => {
                         this.send(p);
